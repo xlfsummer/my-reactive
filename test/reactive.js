@@ -13,3 +13,10 @@ rWord.value = "world"
 
 console.log(rWord.value)
 console.log(cMessage.value)
+
+
+let rLastName = new Reactive("x")
+let rFirstName = new Reactive("lf");
+let cName = new Computed(() => rLastName.value + rFirstName.value);
+
+console.log(cName.value);

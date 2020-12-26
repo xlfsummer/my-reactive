@@ -1,1 +1,2 @@
-import "./reactive.js"
+// import "./reactive.js"
+import "./computed.js"
